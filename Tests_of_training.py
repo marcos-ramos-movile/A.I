@@ -10,7 +10,7 @@
 
 # Criando rede neoral
 from pybrain.tools.shortcuts import buildNetwork
-net = buildNetwork(2, 3, 1, bias=True)
+net = buildNetwork(2, 3, 1, bias=False)
 
 # Construindo tipo de entrada
 from pybrain.datasets import SupervisedDataSet
